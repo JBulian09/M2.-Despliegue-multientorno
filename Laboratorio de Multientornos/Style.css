@@ -1,0 +1,61 @@
+css:root {
+font-family: Arial, Helvetica, sans-serif;
+color: #f8fafc;
+background:
+linear-gradient(180deg, #1e3a5f 0%, #0f172a 60%, #020617 100%);
+}
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+min-height: 100vh;
+}
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 40px 20px 60px;
+}
+.hero {
+margin-bottom: 24px;
+}
+.eyebrow {
+text-transform: uppercase;
+letter-spacing: 0.12em;
+font-size: 0.8rem;
+color: #93c5fd;
+}
+.subtitle {
+max-width: 700px;
+color: #cbd5e1;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 16px;
+margin-bottom: 16px;
+}
+.card {
+background: rgba(15, 23, 42, 0.82);
+border: 1px solid rgba(148, 163, 184, 0.2);
+border-radius: 16px;
+padding: 18px;
+}
+.highlight {
+border-color: rgba(59, 130, 246, 0.5);
+}
+.badge {
+display: inline-block;
+background: #2563eb;
+padding: 6px 12px;
+border-radius: 999px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.mono {
+font-family: Consolas, "Courier New", monospace;
+color: #fde68a;
+}
+ul {
+padding-left: 20px;
+}
