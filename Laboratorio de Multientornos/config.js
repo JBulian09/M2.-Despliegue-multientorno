@@ -1,10 +1,10 @@
 window.APP_CONFIG = {
-  environment: "develop",
-  version: "v0.1.0-dev",
-  updatedAt: "2026-04-09",
+  environment: "production",
+  version: "v0.1.0",
+  updatedAt: "2026-04-10",
   changes: [
-    "Se creó la primera versión del laboratorio",
-    "Se agregó una vista de entorno y versión",
-    "Se preparó la estructura para trabajar con ramas"
+    "Versión estable en main",
+    "Configuración de GitHub Pages en staging",
+    "Base para despliegue multientorno",
   ]
 };
