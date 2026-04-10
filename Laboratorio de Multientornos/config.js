@@ -5,6 +5,6 @@ window.APP_CONFIG = {
   changes: [
     "Se creó la primera versión del laboratorio",
     "Se agregó una vista de entorno y versión",
-    "Se preparó la estructura para trabajar con ramas"
+    "Se preparó la estructura para trabajar con ramas",
   ]
 };
